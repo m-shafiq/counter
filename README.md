@@ -6,9 +6,21 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# to add tailwind css in existing vite project
 
-### Go To https://tailwindcss.com/docs/installation/framework-guides
+# To Make project with vite use following commands
+  npm create vite@latest
+## Enter projecte name 
+## Select frame work / library i.e. React
+## Select supported language i.e. javascript
+## Move to newly created project directory (cd projectname)
+## Run Command "npm i" or "npm insall"
+## To view commands, check file "package.json" in script section, you can run any script by nmp start "scriptname" i.e. nmp start dev
+
+
+
+# to add tailwind css in existing vite project (Go To for all frameworks, etc https://tailwindcss.com/docs/installation/framework-guides)
+
+
 ## select your project type and follow guide
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
